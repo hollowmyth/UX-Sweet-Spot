@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>The UX Sweet Spot - Rich Paul</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -37,24 +37,112 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h1>The UX Sweet Spot</h1>
+					<h3>How getting UX right can make all the difference</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Presentation by <a href="http://www.richpaul.com/">Rich Paul</a> / <a href="http://twitter.com/hollowmyth">@hollowmyth</a></small>
 					</p>
 				</section>
 
+				<section data-background="images/waterfall_prairie_dust_dark.jpg">
+					<section>
+						<h2>Software Development</h2>
+						<h3>Waterfall</h3>
+						<ul>
+							<li class="fragment">Requirements</li>
+							<li class="fragment">Design</li>
+							<li class="fragment">Development</li>
+							<li class="fragment">Testing</li>
+							<li class="fragment">Maintenance</li>
+						</ul>	
+	
+						<aside class="notes">
+	
+							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						</aside>
+					</section>
+					<section>
+						<h2>Software Development</h2>
+						<h3>Waterfall</h3>
+						<p>Each step is done in turn.</p>
+						<p>The next step cannot begin until the previous one is completed.</p>
+						<p>The idea is that you know where you're supposed to end up. <br/>The process helps you get there.</p>
+					</section>
+				</section>
+				<section data-background="images/running-man-action-sketch-dark.jpg">
+					<section>
+						<h2>Software Development</h2>
+						<h3>Agile</h3>
+						<ul>
+							<li class="fragment">Define overall goals</li>
+							<li class="fragment">Requirements gathered for a single feature</li>
+							<li class="fragment">Design</li>
+							<li class="fragment">Development</li>
+							<li class="fragment">Testing</li>
+							<li class="fragment">Review and Plan next iteration</li>
+						</ul>	
+	
+						<aside class="notes">
+	
+							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						</aside>
+					</section>
+					<section>
+						<h2>Software Development</h2>
+						<h3>Agile</h3>
+						
+						<p>Each sprint should produce something that works. <br/><small>(no matter how small)</small></p>
+						<p>Iterations should be short with regular team progress reviews.</p>
+						<p>The idea is that by completing smaller pieces, you can find problems more quickly and change the direction of the overall app before it gets off course.</p>
+					</section>
+				</section>
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+					<p>Both methods are legitimate ways to create software.</p>
+					<h2 class="fragment">What's missing?</h2>
 				</section>
+				<section>
+					<section>
+						<h1>UX</h1>
+						<blockquote class="fragment">"Supposing is good,<br/> but finding out is better" <cite style="display:block; font-size: 80%;">&ndash; Mark Twain</cite></blockquote>
+					</section>
+					<section>
+						<div style="float:left; width: 100%; margin-bottom: 30px;" class="fragment">
+							<h3>The Business</h3>
+						</div>
+						<div style="float:left; width: 33%; padding-top: 10px;" class="fragment"><h3>Marketers<br/> &amp; Analysts</h3></div>
+						<div style="float:right; width: 33%; padding-top: 40px;" class="fragment"><h3>Developers</h3></div>
+						<div style="float:left; width: 33%;"><h1>UX</h1></div>
+						<div style="float:left; width: 100%; margin-top: 30px; clear:both;" class="fragment">
+							<h3>The Customer</h3>
+						</div>
+					</section>
+					<section>
+						<p style="margin-bottom: 50px;">So, what do they want?</p>
+						<div style="float:left; width: 30%;" class="fragment">
+							<h3>The Business</h3>
+							<p class="fragment">Money</p>
+							<p style="font-size:60%;" class="fragment">( That's not a bad thing )</p>
+						</div>	
+						<div style="float:left; width: 40%;" class="fragment">
+							<h4 style="margin-bottom: 35px;">Marketers/Analysts/Developers</h4>
+							<p class="fragment">To Ship It!</p>
+						</div>	
+						<div style="float:left; width: 30%;" class="fragment">
+							<h3>The Customer</h3>
+							<p><span class="fragment">...</span><span class="fragment">it depends<small>&trade;</small></span></p>
+						</div>	
+					</section>
+					<section>
+						<h1>UX</h1>
+						<p>Evolving field. Needs advocates.</p>
+						<p></p>
+						<p>The job of the UX designer and/or developer is to </p>
+					</section>
+					<section>
+
+					</section>
+				</section>
+				
 
 				<!-- Example of nested vertical slides -->
 				<section>
@@ -362,6 +450,8 @@ function linkify( selector ) {
 				progress: true,
 				history: true,
 				center: true,
+				width: 1024,
+				height: 768,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
